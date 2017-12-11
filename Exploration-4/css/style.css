@@ -1,0 +1,109 @@
+body {
+    background-color: orange;
+    color: white;
+}
+
+#logo {
+    height: 100%;
+    width: 25px;
+}
+
+.header {
+    text-shadow:
+        -1px -1px 2px black,
+        1px -1px 2px black,
+        -1px 1px 2px black,
+        1px 1px 2px black;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+a:hover {
+    color: white;
+    background-color: skyblue;
+    text-shadow: 
+        -1px -1px 2px black,
+        1px -1px 2px black,
+        -1px 1px 2px black,
+        1px 1px 2px black;
+}
+
+nav {
+    background-color: orange;
+    font-size: 15px;
+}
+
+#me {
+    height: 500px;
+    width: 500px
+}
+
+.hip {
+    font-size: 15pt;
+}
+
+#hey, #git, .bio {
+    font-size: 20pt;
+}
+
+#contact {
+    font-size: 25pt;
+}
+
+p {
+  line-height: 1.6rem;
+}
+
+.button-collapse {
+  color: skyblue;
+}
+
+.parallax-container {
+  min-height: 500px;
+  line-height: 0;
+  height: auto;
+/*  color: rgba(255,255,255,.9);*/
+}
+  .parallax-container .section {
+    width: 100%;
+  }
+
+@media only screen and (max-width : 992px) {
+    .parallax-container .section {
+        position: absolute;
+        top: 40%;
+        }
+    #index-banner .section {
+        top: 10%;
+    }
+    
+    #me {
+        height: 400px;
+        width: 400px;
+    }
+}
+
+@media only screen and (max-width : 600px) {
+    #index-banner .section {
+        top: 0;
+    }
+    
+    #me {
+        height: 200px;
+        width: 200px;
+    }
+}
+
+.icon-block {
+    padding: 0 15px;
+}
+.icon-block .material-icons {
+    font-size: inherit;
+}
+
+footer.page-footer {
+    margin: 0;
+}
